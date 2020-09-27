@@ -1,5 +1,4 @@
 language: csharp
-solution: dotnet-open-source.sln
 mono: none
 dotnet: 3.1.200
 stages:
