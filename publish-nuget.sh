@@ -1,4 +1,4 @@
-dotnet pack SOLUTION_NAME.sln --output "Packages" --include-symbols -c Release -p:PackageVersion=${3}
+dotnet pack --output "Packages" --include-symbols -c Release -p:PackageVersion=${3}
 if [[ ${?} != 0 ]]
 then 
 	exit -1
